@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>RIDER</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="fonts/font.css">
+	<link rel="stylesheet" href="css/tabs.css">
+</head>
+<body>
+<div id="container">
+	<div id="header">
+		<img src="img/logo.png" height="56" width="191" alt="rider" class="logo" >
+		<img src="img/line.png" height="417" width="1159" alt="border" class="line">
+
+		<div class="language">
+			<a  rel="sidebar" href="" onclick="addFav();return false" class="link"><img class="star" src="img/logo-language.png" height="31" width="31" alt="language"></a>
+			<ul class="chng-lang">
+				<a href="#" title="English"><li>EN</li></a>
+				<a href="#" title="Magyar"><li>HU</li></a>
+				<a href="#" title="Русский"><li>RU</li></a>
+			</ul>	
+			<p id="fav"></p>
+	   </div>
+		
+		<p class="slogan">запасные части<br> к легковым и грузовым<br>автомобилям</p>
+
+		<div class="navigation">
+			<ul class="nav">
+				<a href="#about_company"><li>О компании</li></a>
+				<a href="#distribution_network"><li>Сеть дистрибуции</li></a>
+				<a href="#catalog"><li>Каталог</li></a>
+				<a href="#partnership"><li class= "brdr_none">Партнерство</li></a>
+			</ul>
+		</div>
+
+		<div class="redsquare">
+			<p class="article">Ultimate quality</p>
+			<form action="#catalog" id="get_catalog">
+				<button type="submit">
+					<img src="img/button-icon.png" height="66" width="47" alt="catalog">
+					<p class="button-text">получить каталог продукции >></p>
+				</button>
+			</form>
+			<ul class="points">
+				<a href="#"><li></li></a>
+				<a href="#"><li></li></a>
+				<a href="#"><li></li></a>
+				<a href="#"><li></li></a>
+				<a href="#"><li></li></a>
+			</ul>
+		</div>	
+
+		<img src="img/detail.png" height="758" width="1066" alt="detail" class="detail">
+	</div>
+	<div id="white-stripe"></div>
+	<div id="about_company">
+		<div class="man"><img src="img/man.png"></div>
+		<div class="info">
+			<h1>О компании</h1>
+			<h3>Tорговая марка RIDER – европейский бренд, <br>зарекомендовавший себя, как производитель запасных<br> частей высокого качества по доступной цене. </h3>
+			<p>Tорговая марка RIDER – европейский бренд, зарекомендовавший себя, как производитель запасных частей высокого качества по доступной цене. В 2004 году в Венгрии была основана компания «KAMAZ CENTER KFT.», специализировавшаяся на производстве запасных частей для  грузовых и легковых автомобилей под ТМ RIDER.  В 2013 году права на TM RIDER были выкуплены британской инвестиционной группой «D.B. Development Services Limited», что позволило значительно укрепить позиции ТМ RIDER на рынке. Партнеры компании – поставщики  для сборочных конвейеров известных автомобильных брендов и ведущих торговых марок, сертифицированные  по международному стандарту DIN ISO 9001. Особое внимание компания уделяет контролю качества. Перед запуском в производство образцы подвергаются многократному и всестороннему тестированию. Двухлетняя гарантия на продукцию ТМ RIDER  - это подтверждение успеха  сегодня и уверенности в будущем.</p>
+		</div>
+	</div>
+	<div id="distribution_network">
+		<div class="flags">
+				<img src="img/flag-1.png" height="79" width="119" alt="flag">
+				<img src="img/flag-2.png" height="79" width="119" alt="flag">
+				<img src="img/flag-3.png" height="79" width="119" alt="flag">
+				<img src="img/flag-4.png" height="79" width="119" alt="flag">
+				<img src="img/flag-5.png" height="79" width="119" alt="flag">
+				<img src="img/flag-6.png" height="79" width="119" alt="flag">
+				<img src="img/flag-7.png" height="79" width="119" alt="flag">
+				<img src="img/flag-8.png" height="79" width="119" alt="flag">
+		</div>
+		<div class="info">
+			<span class="title">Сеть дистрибуции</span><br>
+			<span class="description">Наша продукция поставляется<br> в Россию, Украину, страны Европы<br> и Южной Америки, США </span>
+		</div>
+		<form action="#partnership">
+			<button type="submit">
+				<img src="img/play.png" height="53" width="46" alt="go">
+				<p>Партнёрство</p>
+			</button>
+		</form>
+	</div>	
+	<div id="world_wide">
+		<img src="img/man-second.png" height="425" width="444" alt="man" >
+		<div class="text">
+			<ul>
+				<li class="blue1">2 года</li>
+				<li class="green">world wide</li>
+				<li class="blue2">гарантии</li>
+			</ul>
+		</div>
+	</div>
+
+<div class="wrapper">
+    <div class="tabs">
+        <span class="tab">
+        	<img src="img/car_1.png" height="263" width="263" alt="">
+        	<p>Легковые автомобили</p>
+        </span>
+        <span class="tab">
+        	<img src="img/car_2.png" height="263" width="263" alt="">
+			<p>Грузовые автомобили</p>
+        </span>
+        <span class="tab">
+        	<img src="img/car_3.png" height="263" width="263" alt="">
+        	<p>Автобусы</p>
+        </span> 
+        <span class="tab">
+        	<img src="img/car_4.png" height="263" width="263" alt="">
+			<p>Прицепы и оси</p>
+        </span>        
+    </div>
+    <div class="tab_content">
+        <div class="tab_item">
+        	<img src="img/legkovie.png" alt="">
+			<div class="name_of_lines">
+				<span class="product_lines">Товарные Линии</span>
+				<div class="items-block">
+					<ul class="items-left">
+						<li>Ремни</li>
+						<li>Детали стеклоомывателя и очистителя</li>
+						<li>Амортизаторы и стойки подвески</li>
+						<li>Детали подвески</li>
+						<li>Рессоры и стремянки</li>
+						<li>Рулевые рейки и валы</li>
+						<li>Ступицы колеса и ремкомплекта</li>
+						<li>Насосы водянные</li>
+						<li>Радиаторы,интеркулеры</li>
+						<li>Термостаты</li>
+						<li>Безонасосы и детали бензиновой топливной системы</li>
+						<li>Гидравлика тормозов и сцепления</li>
+						<li>Диски и барабаны тормозные</li>
+						<li>Колодки и накладки тормозные</li>
+						<li>Сцепление</li>
+					</ul>
+					<ul class="items-right">
+						<li>ШРУСы и приводы</li>
+						<li>Элементы крепежные</li>
+						<li>Фильтры маслянные</li>
+						<li>Фильтры топливные</li>
+						<li>Детали системы зажигания</li>
+						<li>Моторчики электрические</li>
+						<li>Провода высоковольтные(зажигания)</li>
+						<li>Реле, переключатели, датчики</li>
+						<li>Стартеры и генераторы, детали стартеров и генераторов</li>
+						<li>Глушители и выхлопные трубы</li>
+						<li>Сайлентблоки, подушки и втулки подвески</li>
+						<li>Патрубки</li>
+					</ul>
+				</div>
+			</div>
+        </div>
+         <div class="tab_item">
+        	<img src="img/gruzovie.png">
+			<div class="name_of_lines">
+				<span class="product_lines">Товарные Линии</span>
+				<div class="items-block">
+					<ul class="items-left">
+						<li>Амортизаторы и стойки подвески</li>
+						<li>Ступицы колеса и ремкомплекты</li>
+						<li>Рессоры и стремянки</li>
+						<li>Пневморессоры</li>
+						<li>Пневматика</li>
+						<li>Гидравлика тормозов и сцепления</li>
+						<li>Валы карданные</li>
+						<li>Датчики тормозной системы</li>
+						<li>Прокладки и сальники</li>
+						<li>Детали КПП и редукторов</li>
+						<li>Детали седельно-сцепных устройств</li>
+						<li>Фильтры топливные</li>
+						<li>Детали подвески</li>
+						<li>Насосы водяные</li>
+					</ul>
+					<ul class="items-right">
+						<li>Детали кузова и кабины</li>
+						<li>Радиаторы, интеркулеры</li>
+						<li>Трубки, шланги и фитинги тормозные</li>
+						<li>Сцепление</li>
+						<li>Сайлентблоки, подушки и втулки подвески</li>
+						<li>Оптика и габаритные фонари</li>
+						<li>Инстурмент специальный</li>
+						<li>Зеркала</li>
+						<li>Ремкомплекты тормозов барабанных</li>
+						<li>Колодки и накладки тормозные</li>
+						<li>Глушители и выхлопные трубы</li>
+						<li>Провода электрические и детали электрооборудования</li>
+					</ul>
+				</div>
+			</div>
+        </div>
+         <div class="tab_item">
+        	<img src="img/buses.png">
+			<div class="name_of_lines">
+				<span class="product_lines">Товарные Линии</span>
+				<div class="items-block">
+					<ul class="items-left">
+						<li>Стартеры и генераторы, детали стартеров и генераторов</li>
+						<li>Реле, переключатели, датчики</li>
+						<li>Фильтры топливные</li>
+						<li>Фильтры маслянные</li>
+						<li>Патрубки и шланги, рукава</li>
+						<li>Сцепление</li>
+						<li>Детали КПП и редукторов</li>
+						<li>Валы карданные, опоры карданного вала и подшипники</li>
+						<li>Трубки, шланги и фитинги тормозные</li>
+						<li>Ремкомплекты тормозов барабанных</li>
+						<li>Пневматика</li>
+						<li>Колодки и накладки тормозные</li>
+						<li>Диски и барабаны тормозные</li>
+						<li>Гидравлика тормозов и сцепления</li>
+						<li>Ступицы колеса и ремкомплекты</li>
+						<li>Рессоры и стремянки</li>
+					</ul>
+					<ul class="items-right">
+						<li>ТНВД , ТННД и детали дизельной топливной системы</li>
+						<li>Бензонасосы и детали бензиновой топливной системы</li>
+						<li>Радиаторы, интеркулеры</li>
+						<li>Радиаторы, интеркулеры</li>
+						<li>Патрубки   </li>
+						<li>Насосы водянные</li>
+						<li>Детали системы вентиляции и отопления</li>
+						<li>Насосы ГУР</li>
+						<li>Детали подвески</li>
+						<li>Амортизаторы и стойки подвески</li>
+						<li>Оптика и габаритные фонари</li>
+						<li>Детали кузова и кабины</li>
+						<li>Детали стеклоочистителя и омывателя</li>
+						<li>Ремни</li>
+						<li>Датчики и кнопки </li>
+						<li>Глушители и выхлопные трубы</li>
+					</ul>
+				</div>
+			</div>
+        </div>
+         <div class="tab_item">
+        	<img src="img/pricepi.png">
+			<div class="name_of_lines">
+				<span class="product_lines">Товарные Линии</span>
+				<div class="items-block">
+					<ul class="items-left">
+						<li>Трубки, шланги и фитинги тормозные</li>
+						<li>Диски тормозные</li>
+						<li>Барабаны тормозные</li>
+						<li>Датчики тормозной системы</li>
+						<li>Ремкомплекты тормозов барабанных</li>
+						<li>Колодки и накладки тормозные</li>
+						<li>Пневматика</li>
+						<li>Сайлентблоки, подушки и втулки подвески</li>
+						<li>Амортизаторы и стойки подвески</li>
+					</ul>
+					<ul class="items-right">
+						<li>Ступицы колеса и ремкомплекты</li>
+						<li>Рессоры и стремянки</li>
+						<li>Пневморессоры</li>
+						<li>Прокладки и сальники</li>
+						<li>Детали седельно-сцепных устройств</li>
+						<li>Суппорты тормозные и ремкомплекты</li>
+						<li>Оптика и габаритные фонари</li>
+						<li>Провода электрические и детали электрооборудования</li>
+						<li>Инструмент специальный</li>
+					</ul>
+				</div>
+			</div>
+        </div>
+    </div>
+</div>
+
+	<div id="catalog">
+		<img src="img/button-icon.png" height="474" width="336" alt="catalog_logo">
+		<h1>Получите каталог продукции</h1>
+		<h3>ежемесячно обновляемый<br> каталог продукции rider</h3>
+		<p>более <span>3000</span> позиций!</p>
+		<form action="#" method="post">
+			<input type="text" placeholder="Your e-mail" id="get_ctlg_input" required></input>
+			<input type="submit" value="Скачать" id="download" ></input>
+		</form>
+		<div> 
+		<!-- JS put text in this divs, if input wtote wrong. -->
+			<p id="right"></p>
+			<p id="not_right"></p>
+			<p id="empty"></p>
+		<!-- Done -->
+		</div>
+	</div>	
+	<div id="partnership">
+		<img src="img/partnership.png" height="444" width="390"  alt="road">
+		<div class="text">
+			<h1>Партнерство</h1>
+			<h3>Станьте представителем торговой<br> марки <span>RIDER</span> в вашем регионе</h3>
+			<form action="post.php" method="POST">
+				<input type="text" placeholder="Ф.И.О" id="name" required> </input>
+				<input type="text" placeholder="Компания"id="company"></input>
+				<input type="text" placeholder="Телефон" id="phone"></input>
+				<input type="text" placeholder="E-mail" id="email" required></input>
+				<textarea type="text" placeholder="Комментарий" id="comment"></textarea>
+				<input type="submit" value="Отправить запрос"></input>
+			</form>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="left">
+			<p><img src="img/logo-footer.png" height="56" width="191" alt="footer-logo" class="footer_logo"></p>
+			<p class="footer_left">Rider TM, Hungary,<br>Management Company<br>D.B. DEVELOPMENT SERVICES LIMITED, UK<br>2006-2016</p>
+		</div>
+		<div class="right">
+			<p class="social_icons">
+				<ul>
+					<a href="#"><li><img src="img/twitter.png" height="47" width="46" alt=""></li></a>
+					<a href="#"><li><img src="img/facebook.png" height="47" width="46" alt=""></li></a>
+					<a href="#"><li><img src="img/instagram.png" height="47" width="46" alt=""></li></a>
+				</ul>
+			</p>
+			<p class="footer_right">* Права на изображение логотипов<br>и торговых марок принадлежат<br>их владельцам</p>
+		</div>
+	</div>
+	<!-- It is button for jumping up. -->
+	<div id="scrollup"><img alt="Прокрутить вверх" src="img/up.png" height="60" width="60"></div>
+		<!-- Done -->
+</div>
+	<script type="text/javascript" src="js/jquery-1.12.3.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/addInFavorite.js"></script>
+	<script src="js/tabs.js"></script>
+</body>
+</html>

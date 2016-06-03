@@ -1,0 +1,79 @@
+.wrapper {
+	max-width: 1440px;
+	padding-bottom: 60px;
+	color:#fff;
+}
+.wrapper .active { 
+	color: yellow; 
+}
+.tabs {
+	width: 1440px;
+	background: url(../img/background-block5.png) no-repeat 0 0;
+}
+.tab {
+	cursor: pointer;
+	display: inline-block;
+	margin: 42px 42px;
+	vertical-align: text-top;
+}
+.tab p {
+	font: 30px 'PFDinDisplayPro-Medium';
+	/*color: #fff;*/
+	text-transform: uppercase;
+	text-align: center;
+	padding: 15px 0 0 0;
+	width: 263px;
+}
+.tab_content {
+	padding: 60px 0 0 0;
+}
+.tab_content img {
+	float:left;
+	margin: 0 108px 0 100px;
+}
+.tab_content .list {
+	margin: 30px 0 0 0;
+}
+
+.tab_item {
+	width:1440px;
+}
+.tab_item .product_lines {
+	color:red;
+	font: 80px/82px'PFDinDisplayPro-Light';
+	text-transform: uppercase;
+	width: 200px;
+}
+
+.tab-item .name_of_lines {
+	float:right;
+}
+
+
+.tab_item ul li {
+	padding: 5px 10px;
+	color:black;
+	font: 16px/18px'PFDinDisplayPro-Light';
+}
+.tab_item .items-block {
+	padding: 40px 200px 0 0;
+}
+
+.tab_item .items-left {
+	float: left;
+}
+.tab_item .items-right {
+	float: right;
+}
+.tab_item ul {
+	width: 300px;
+}
+.tab_item ul li:nth-child(odd) {
+	background:#e5e5e5;
+}
+
+.items-block:after {
+	content: ' ';
+	display: table;
+	clear: both;
+}
