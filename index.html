@@ -7,54 +7,70 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="fonts/font.css">
 	<link rel="stylesheet" href="css/tabs.css">
+	<link rel="stylesheet" href="css/slider.css">
 </head>
 <body>
 <div id="container">
-	<div id="header">
-		<img src="img/logo.png" height="56" width="191" alt="rider" class="logo" >
-		<img src="img/line.png" height="417" width="1159" alt="border" class="line">
+		<div id="header">
+			<img src="img/logo.png" height="56" width="191" alt="rider" class="logo" >
+			<div id="slider-wrap">
+			    <div id="slider">
+			        <div class="slide"><img src="img/detail-1.png" alt=""></div>
+			        <div class="slide"><img src="img/detail-2.png" alt=""></div>
+			        <div class="slide"><img src="img/detail-3(new-position).png" alt=""> </div>
+			    </div>
 
-		<div class="language">
-			<a  rel="sidebar" href="" onclick="addFav();return false" class="link"><img class="star" src="img/logo-language.png" height="31" width="31" alt="language"></a>
-			<ul class="chng-lang">
-				<a href="#" title="English"><li>EN</li></a>
-				<a href="#" title="Magyar"><li>HU</li></a>
-				<a href="#" title="Русский"><li>RU</li></a>
-			</ul>	
-			<p id="fav"></p>
-	   </div>
-		
-		<p class="slogan">запасные части<br> к легковым и грузовым<br>автомобилям</p>
+			</div>
+			<div id="header-wrap">
+				<div class="language">
+					<a  rel="sidebar" href="" onclick="addFav();return false" class="link"><img class="star" src="img/logo-language.png" height="31" width="31" alt="language"></a>
+					<ul class="chng-lang">
+						<a href="#" title="English"><li>EN</li></a>
+						<a href="#" title="Magyar"><li>HU</li></a>
+						<a href="#" title="Русский"><li>RU</li></a>
+					</ul>	
+					<p id="fav"></p>
+			   </div>
+				
+				<p class="slogan">запасные части<br> к легковым и грузовым<br>автомобилям</p>
 
-		<div class="navigation">
-			<ul class="nav">
-				<a href="#about_company"><li>О компании</li></a>
-				<a href="#distribution_network"><li>Сеть дистрибуции</li></a>
-				<a href="#catalog"><li>Каталог</li></a>
-				<a href="#partnership"><li class= "brdr_none">Партнерство</li></a>
-			</ul>
-		</div>
+				<div class="navigation">
+					<ul class="nav">
+						<a href="#about_company"><li>О компании</li></a>
+						<a href="#distribution_network"><li>Сеть дистрибуции</li></a>
+						<a href="#catalog"><li>Каталог</li></a>
+						<a href="#partnership"><li class= "brdr_none">Партнерство</li></a>
+					</ul>
+				</div>
 
-		<div class="redsquare">
-			<p class="article">Ultimate quality</p>
-			<form action="#catalog" id="get_catalog">
-				<button type="submit">
-					<img src="img/button-icon.png" height="66" width="47" alt="catalog">
-					<p class="button-text">получить каталог продукции >></p>
-				</button>
-			</form>
-			<ul class="points">
-				<a href="#"><li></li></a>
-				<a href="#"><li></li></a>
-				<a href="#"><li></li></a>
-				<a href="#"><li></li></a>
-				<a href="#"><li></li></a>
-			</ul>
-		</div>	
-
-		<img src="img/detail.png" height="758" width="1066" alt="detail" class="detail">
+				<div class="redsquare">
+					<p class="article">Ultimate quality</p>
+					<form action="#catalog" id="get_catalog">
+						<button type="submit">
+							<img src="img/button-icon.png" height="66" width="47" alt="catalog">
+							<p class="button-text">получить каталог продукции >></p>
+						</button>
+					</form>
+				</div>	
+			</div>
+		<!-- <img src="img/detail.png" height="758" width="1066" alt="detail" class="detail"> -->
 	</div>
-	<div id="white-stripe"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- <div id="white-stripe"></div> -->
 	<div id="about_company">
 		<div class="man"><img src="img/man.png"></div>
 		<div class="info">
@@ -326,5 +342,6 @@
 	<script type="text/javascript" src="js/script.js"></script>
 	<script type="text/javascript" src="js/addInFavorite.js"></script>
 	<script src="js/tabs.js"></script>
+	<script src="js/slider.js"></script>
 </body>
 </html>
