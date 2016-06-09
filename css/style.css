@@ -39,7 +39,6 @@ body {
     position:absolute;
     overflow:hidden;
     text-indent:-999px;
-    /*opacity:0.8;*/
     z-index:3;
     outline:none !important;
 }
@@ -61,8 +60,10 @@ body {
 	display: none;
 }
 .logo {
-	float: left;
-	margin: 68px 0 0 180px;
+    position: relative;
+    float: left;
+    margin: 68px 0 0 180px;
+    z-index: 99;
 }
 .line {
 	position: absolute;
