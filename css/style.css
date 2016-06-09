@@ -5,7 +5,7 @@ body {
 	max-width: 1400px;
 }
 #header {
-	background: url(../img/hd-bg.png) no-repeat center;
+	background: url(../img/hd-bg.jpg) no-repeat center;
 	width:1440px;
 	height: 750px;
 	margin: 0 auto 100px auto;
@@ -39,6 +39,7 @@ body {
     position:absolute;
     overflow:hidden;
     text-indent:-999px;
+    /*opacity:0.8;*/
     z-index:3;
     outline:none !important;
 }
@@ -253,7 +254,7 @@ div.redsquare {
 
 
 #distribution_network {
-    background: url(../img/background-block3.png) no-repeat center;
+    background: url(../img/background-block3.jpg) no-repeat center;
     width: 1440px;
     height: 626px;
 }
@@ -315,7 +316,7 @@ div.redsquare {
 #world_wide {
 	width: 1440px;
 	height: 425px;
-	background: url(../img/background-block4.png);
+	background: url(../img/background-block4.jpg);
 	margin: 0 auto;
 }
 
@@ -344,43 +345,9 @@ div.redsquare {
 #world_wide .green {
 	background-image: url(../img/2_years_biggest.png);
 }
-/*
-#type_of_cars {
-	background: url(../img/background-block5.png) 0 0 no-repeat;
-	height: 441px;
-	width: 1440px;
-	margin: -1px auto;
 
-}
-#type_of_cars .container_cars{
-	padding: 75px 150px;
-}
-
-#type_of_cars .img_1,.img_2,.img_3,.img_4  {
-	float: left;
-	padding-right: 11px;
-    padding-left: 11px;
-}
-#type_of_cars .text{
-	font: 30px 'PFDinDisplayPro-Medium';
-	color: #fff;
-	text-transform: uppercase;
-	text-align: center;
-	padding: 15px 0 0 0;
-}*/
-
-/*#white_stripe2 {
-	background: #fff;
-	height: 300px;
-	width: 1440px;
-	margin: 0 auto;
-}
-#white_stripe2 img {
-	margin: 50px 0 0 135.5px;
-}
-*/
 #catalog {
-	background: url(../img/background-block6.png) 0 0 no-repeat;
+	background: url(../img/background-block6.jpg) 0 0 no-repeat;
 	height: 646px;
 	width: 1440px;
 	margin: 0 auto;
@@ -495,7 +462,7 @@ div.redsquare {
 }
 
 #footer {
-	background: url(../img/background-footer.png) 0 0 no-repeat;
+	background: url(../img/background-footer.jpg) 0 0 no-repeat;
 	height: 275px;
 	width: 1440px;
 	margin: 0 auto;
