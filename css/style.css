@@ -7,7 +7,7 @@ body {
 #header {
 	background: url(../img/hd-bg.png) no-repeat center;
 	width:1440px;
-	height: 765px;
+	height: 750px;
 	margin: 0 auto 100px auto;
 }
 #header-wrap {
@@ -19,6 +19,7 @@ body {
     width:1206px; 
     position: relative;
 	z-index: 2;
+	margin-left: 55px;
     }
 #slider{ /* Оболочка слайдера */
     width:1270px;
@@ -45,12 +46,12 @@ body {
 
 #prewbutton{
     top:250px;
-    left:0;
+    left:45px;
     background:url(../img/back.png)no-repeat 0 0;
 }
 #nextbutton{
     top:250px;
-    right:0;
+    right:55px;
     background:url(../img/next.png)no-repeat 0 0;
 }
 #prewbutton:hover, #nextbutton:hover{
