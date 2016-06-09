@@ -633,7 +633,7 @@ p#fav {
 	font: 18px/20px 'PFDinDisplayPro-Regular';
 	text-decoration: none;
 	position: absolute;
-    bottom: 80px;
+    bottom: 40px;
     right: 520px;
 }
 
@@ -644,3 +644,4 @@ p#fav {
 .joint-table  {
 	width:650px;
 }
+
