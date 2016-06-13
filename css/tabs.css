@@ -3,9 +3,6 @@
 	padding-bottom: 60px;
 	color:#fff;
 }
-.wrapper .active { 
-	color: yellow; 
-}
 .tabs {
 	width: 1440px;
 	background: url(../img/background-block5.jpg) no-repeat 0 0;
@@ -13,8 +10,23 @@
 .tab {
 	cursor: pointer;
 	display: inline-block;
-	margin: 42px 42px;
+	padding: 42px 47px;
 	vertical-align: text-top;
+	height:362px;
+	position: relative;
+}
+.wrapper .active { 
+	color: yellow;
+}
+.wrapper .active:after {
+	content: '';
+	display: block;
+	position: absolute;
+    bottom: -1px;
+    left: 155px;
+	width: 44px;
+	height: 21px;
+	background: url(../img/pointer-tabs.png) no-repeat 0 0;
 }
 .tab p {
 	font: 30px 'PFDinDisplayPro-Medium';
