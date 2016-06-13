@@ -2,8 +2,8 @@ body {
 	margin: 0 auto;
 	padding: 0;
 	position: relative;
-	max-width: 1400px;
-	  height: 100%;
+	max-width: 1440px;
+	height: 100%;
 }
 #header {
 	background: url(../img/hd-bg.jpg) no-repeat 0 0;
@@ -20,7 +20,7 @@ body {
     width:1206px; 
     position: relative;
 	z-index: 2;
-	margin-left: 55px;
+	margin:0 auto;
     }
 #slider{ /* Оболочка слайдера */
     width:1270px;
@@ -466,7 +466,7 @@ div.redsquare {
 	margin: 0 auto;
 }
 
-#footer .left, #footer-promo .left {
+#footer .left, #promo-footer .left {
 	float: left;
 }
 
@@ -474,7 +474,7 @@ div.redsquare {
 	margin: 60px 0 50px 135px;
 
 }
-#footer .footer_left, {
+#footer .footer_left {
 	font: 18px 'PFDinDisplayPro-Regular';
 	color: #fff;
 	margin: 0 0 0 135px;
@@ -486,16 +486,16 @@ div.redsquare {
 	margin: 0 0 0 0;
 	float: right;
 }
-#footer .right ul a, #footer-promo .right ul a {
+#footer .right ul a, #promo-footer .right ul a {
 	float: left;
 	margin: 0 10px 0 0;
 }
-#footer .footer_right, #footer-promo .footer_right {
+#footer .footer_right, #promo-footer .footer_right {
 	clear: both;
 	padding: 60px 0 0 0;
     margin: 0 145px 0 0;
 }
-#footer .social_icons, #footer-promo .social_icons {
+#footer .social_icons, #promo-footer .social_icons {
 	padding: 60px 0 0 0;
 }
 
@@ -544,10 +544,12 @@ p#fav {
 }
 /*Конец*/
 #promo-wrapper-main {
-  position: relative;
-  min-height: 100%;
+  /*position: relative;*/
+    height: 100%;
 }
 #promo-wrapper-main .promo-content {
+	box-sizing: border-box;
+    min-height: 100%;
 	padding-bottom: 130px;
 }
 #promo-wrapper-main .up-part {
@@ -572,11 +574,10 @@ p#fav {
 	left:130px;
 }
 #promo-wrapper-main .list {
-	/*float:right;*/
 	color:#777777;
 	font: 18px/20px 'PFDinDisplayPro-Regular';
 	position: absolute;
-	right:-5px;
+	right: 35px;
 }
 
 #promo-wrapper-main .list thead td {
@@ -604,7 +605,7 @@ p#fav {
 	text-decoration: none;
 	position: absolute;
     bottom: 40px;
-    right: 478px;
+    right: 518px;
 }
 
 .joint {
@@ -615,25 +616,27 @@ p#fav {
 	width:650px;
 }
 
-#promo-wrapper-main #footer-promo {
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	width: 1440px;
+#promo-wrapper-main #promo-footer {
 	height: 120px;
+    margin-top: -120px;
+/*	position: absolute;
+	left: 0;
+	bottom: 0;*/
+	width: 1440px;
+	/*height: 120px;*/
 	background: url(../img/background-footer.jpg) 0 -90px no-repeat;
 }
 
 
 
-#footer-promo .right {
+#promo-footer .right {
 	font: 14px 'PFDinDisplayPro-Regular';
 	color: #fff;
 	margin: -16px 135px 0 0;
 	float: right;
 }
 
-#footer-promo .footer_left {
+#promo-footer .footer_left {
 	font: 18px 'PFDinDisplayPro-Regular';
 	color: #fff;
 	margin: 22px 0 0 135px;
