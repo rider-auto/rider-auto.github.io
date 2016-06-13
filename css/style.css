@@ -336,13 +336,13 @@ div.redsquare {
 	float: left;
 }
 #world_wide .blue1 {
-	background-image: url(../img/2_years.png);
+	background-image: url(../img/2_years.jpg);
 }
 #world_wide .blue2 {
-	background-image: url(../img/2_years_medium.png) ;
+	background-image: url(../img/2_years_medium.jpg) ;
 } 
 #world_wide .green {
-	background-image: url(../img/2_years_biggest.png);
+	background-image: url(../img/2_years_biggest.jpg);
 }
 
 #catalog {
