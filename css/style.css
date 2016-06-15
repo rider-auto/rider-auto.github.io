@@ -25,7 +25,7 @@ body {
     }
 #slider{ /* Оболочка слайдера */
     width:1270px;
-    height:728px;
+    height:750px;
     overflow: hidden;
     position:relative;
 }
@@ -545,7 +545,6 @@ p#fav {
 }
 /*Конец*/
 #promo-wrapper-main {
-  /*position: relative;*/
     height: 100%;
 }
 #promo-wrapper-main .promo-content {
@@ -620,15 +619,9 @@ p#fav {
 #promo-wrapper-main #promo-footer {
 	height: 120px;
     margin-top: -120px;
-/*	position: absolute;
-	left: 0;
-	bottom: 0;*/
 	width: 1440px;
-	/*height: 120px;*/
 	background: url(../img/background-footer.jpg) 0 -90px no-repeat;
 }
-
-
 
 #promo-footer .right {
 	font: 14px 'PFDinDisplayPro-Regular';
