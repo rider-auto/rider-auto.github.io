@@ -277,7 +277,7 @@
 		<p>более <span>3000</span> позиций!</p>
 		<form action="#" method="post">
 			<input type="text" placeholder="Your e-mail" id="get_ctlg_input" required></input>
-			<input type="submit" value="Скачать" id="download" ></input>
+			<a id="download"href="catalog/Sergey.pdf" download="Sergey.pdf">Скачать</a>
 		</form>
 		<div> 
 		<!-- JS put text in this divs, if input wtote wrong. -->
@@ -293,12 +293,11 @@
 			<h1>Партнерство</h1>
 			<h3>Станьте представителем торговой<br> марки <span>RIDER</span> в вашем регионе</h3>
 			<form action="post.php" method="POST">
-				<input type="text" placeholder="Ф.И.О" id="name" required> </input>
-				<input type="text" placeholder="Компания"id="company"></input>
-				<input type="text" placeholder="Телефон" id="phone"></input>
-				<input type="text" placeholder="E-mail" id="email" required></input>
-				<textarea type="text" placeholder="Комментарий" id="comment"></textarea>
-				<input type="submit" value="Отправить запрос"></input>
+				<input type="text" placeholder="Имя" name="first_name" required> </input>
+				<input type="text" placeholder="Фамилия" name="last_name" required> </input>
+				<input type="text" placeholder="E-mail" name="email" required></input>
+				<textarea type="text" placeholder="Комментарий" name="message"></textarea>
+				<input type="submit" name="submit" value="Отправить запрос"></input>
 			</form>
 		</div>
 	</div>

@@ -7,12 +7,13 @@
 }
 .tabs {
 	width: 1440px;
+	padding-left: 150px;
 	background: url(../img/background-block5.jpg) no-repeat 0 0;
 }
 .tab {
 	cursor: pointer;
 	display: inline-block;
-	padding: 42px 46px;
+	padding: 42px 15px;
 	vertical-align: text-top;
 	height:362px;
 	position: relative;
@@ -25,7 +26,7 @@
 	display: block;
 	position: absolute;
     bottom: -1px;
-    left: 155px;
+    left: 126px;
 	width: 44px;
 	height: 21px;
 	background: url(../img/pointer-tabs.png) no-repeat 0 0;

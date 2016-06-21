@@ -386,12 +386,15 @@ div.redsquare {
 }
 #catalog #download {
 	width: 210px;
-	height: 35px;
+	height: 30px;
 	background: #ff0000;
 	color: #fff;
 	border: none;
 	font: 20px 'PFDinDisplayPro-Medium';
 	cursor: pointer;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 5px;
 }
 #partnership {
 	background: #fff;
